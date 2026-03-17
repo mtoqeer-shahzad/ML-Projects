@@ -1,0 +1,10 @@
+2026-03-18 00:58:04,182 - INFO - Entered Data Ingestion method
+2026-03-18 00:58:04,200 - INFO - Dataset read as DataFrame
+2026-03-18 00:58:04,272 - INFO - Raw data saved
+2026-03-18 00:58:04,288 - INFO - Data Ingestion completed!
+2026-03-18 00:58:04,331 - INFO - Train and test data read completed
+2026-03-18 00:58:04,331 - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2026-03-18 00:58:04,331 - INFO - Numerical columns:   ['reading_score', 'writing_score']
+2026-03-18 00:58:04,407 - INFO - Saving preprocessing object
+2026-03-18 00:58:04,447 - INFO - Splitting training and testing input data
+2026-03-18 00:58:14,768 - INFO - Best Model: Linear Regression | Score: 0.8804332983749564
