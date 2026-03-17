@@ -8,3 +8,49 @@
 2026-03-18 00:58:04,407 - INFO - Saving preprocessing object
 2026-03-18 00:58:04,447 - INFO - Splitting training and testing input data
 2026-03-18 00:58:14,768 - INFO - Best Model: Linear Regression | Score: 0.8804332983749564
+2026-03-18 01:17:08,649 - INFO - Entered Data Ingestion method
+2026-03-18 01:17:08,656 - INFO - Dataset read as DataFrame
+2026-03-18 01:17:08,663 - INFO - Raw data saved
+2026-03-18 01:17:08,670 - INFO - Data Ingestion completed!
+2026-03-18 01:17:08,700 - INFO - Train and test data read completed
+2026-03-18 01:17:08,700 - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2026-03-18 01:17:08,700 - INFO - Numerical columns:   ['reading_score', 'writing_score']
+2026-03-18 01:17:08,730 - INFO - Saving preprocessing object
+2026-03-18 01:17:08,733 - INFO - Splitting training and testing input data
+2026-03-18 01:19:54,762 - INFO - Entered Data Ingestion method
+2026-03-18 01:19:54,770 - INFO - Dataset read as DataFrame
+2026-03-18 01:19:54,777 - INFO - Raw data saved
+2026-03-18 01:19:54,787 - INFO - Data Ingestion completed!
+2026-03-18 01:19:54,818 - INFO - Train and test data read completed
+2026-03-18 01:19:54,818 - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2026-03-18 01:19:54,818 - INFO - Numerical columns:   ['reading_score', 'writing_score']
+2026-03-18 01:19:54,858 - INFO - Saving preprocessing object
+2026-03-18 01:19:54,867 - INFO - Splitting training and testing input data
+2026-03-18 01:21:10,222 - INFO - Entered Data Ingestion method
+2026-03-18 01:21:10,229 - INFO - Dataset read as DataFrame
+2026-03-18 01:21:10,233 - INFO - Raw data saved
+2026-03-18 01:21:10,243 - INFO - Data Ingestion completed!
+2026-03-18 01:21:10,263 - INFO - Train and test data read completed
+2026-03-18 01:21:10,263 - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2026-03-18 01:21:10,263 - INFO - Numerical columns:   ['reading_score', 'writing_score']
+2026-03-18 01:21:10,284 - INFO - Saving preprocessing object
+2026-03-18 01:21:10,284 - INFO - Splitting training and testing input data
+2026-03-18 01:22:36,878 - INFO - Entered Data Ingestion method
+2026-03-18 01:22:36,878 - INFO - Dataset read as DataFrame
+2026-03-18 01:22:36,884 - INFO - Raw data saved
+2026-03-18 01:22:36,889 - INFO - Data Ingestion completed!
+2026-03-18 01:22:36,909 - INFO - Train and test data read completed
+2026-03-18 01:22:36,909 - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2026-03-18 01:22:36,909 - INFO - Numerical columns:   ['reading_score', 'writing_score']
+2026-03-18 01:22:36,929 - INFO - Saving preprocessing object
+2026-03-18 01:22:36,939 - INFO - Splitting training and testing input data
+2026-03-18 01:23:27,770 - INFO - Entered Data Ingestion method
+2026-03-18 01:23:27,770 - INFO - Dataset read as DataFrame
+2026-03-18 01:23:27,782 - INFO - Raw data saved
+2026-03-18 01:23:27,790 - INFO - Data Ingestion completed!
+2026-03-18 01:23:27,811 - INFO - Train and test data read completed
+2026-03-18 01:23:27,811 - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2026-03-18 01:23:27,811 - INFO - Numerical columns:   ['reading_score', 'writing_score']
+2026-03-18 01:23:27,831 - INFO - Saving preprocessing object
+2026-03-18 01:23:27,831 - INFO - Splitting training and testing input data
+2026-03-18 01:24:10,075 - INFO - Best Model: Linear Regression | Score: 0.8804
