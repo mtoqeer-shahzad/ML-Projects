@@ -1,13 +1,23 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pickle
 import pandas as pd
 import numpy as np
 import os
 
-application = FastAPI()
+app = FastAPI()
 
-# ✅ Input Schema define karo
+# ✅ CORS Add Karo — React se connect hone ke liye
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # React ka port
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Input Schema
 class StudentData(BaseModel):
     gender: str
     race_ethnicity: str
@@ -22,22 +32,17 @@ model        = pickle.load(open("artifact/model.pkl",        "rb"))
 preprocessor = pickle.load(open("artifact/preprocessor.pkl", "rb"))
 
 # Homepage
-@application.get("/")
+@app.get("/")
 def index():
-    return {"message": "Student Performance Prediction API 🎓"}
+    return {"message": "Student Performance Prediction API"}
 
 # Predict Route
-@application.post("/predict")
-def predict(data: StudentData):  # ✅ StudentData use karo
+@app.post("/predict")
+def predict(data: StudentData):
     try:
-        # Dict mein convert karo
-        input_data = pd.DataFrame([data.dict()])
-
-        # Preprocess karo
+        input_data   = pd.DataFrame([data.dict()])
         input_scaled = preprocessor.transform(input_data)
-
-        # Predict karo
-        prediction = model.predict(input_scaled)
+        prediction   = model.predict(input_scaled)
 
         return {
             "status":          "success",
@@ -52,4 +57,4 @@ def predict(data: StudentData):  # ✅ StudentData use karo
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(application, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
