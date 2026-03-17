@@ -1,0 +1,12 @@
+2026-03-17 22:05:49,460 - INFO - Entered Data Ingestion method
+2026-03-17 22:05:49,466 - INFO - Dataset read as DataFrame
+2026-03-17 22:05:49,470 - INFO - Raw data saved
+2026-03-17 22:05:49,480 - INFO - Data Ingestion completed!
+2026-03-17 23:39:00,601 - INFO - Entered Data Ingestion method
+2026-03-17 23:39:00,610 - INFO - Dataset read as DataFrame
+2026-03-17 23:39:00,610 - INFO - Raw data saved
+2026-03-17 23:39:00,621 - INFO - Data Ingestion completed!
+2026-03-17 23:39:00,651 - INFO - Train and test data read completed
+2026-03-17 23:39:00,651 - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2026-03-17 23:39:00,651 - INFO - Numerical columns:   ['reading_score', 'writing_score']
+2026-03-17 23:39:00,671 - INFO - Saving preprocessing object
